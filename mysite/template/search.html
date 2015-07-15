@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+    <form action="/search_rs/" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="Search">
+    </form>
+    {% if rs%}
+       <h1>{{rs}}</h1>>
+    {%endif%}
+</body>
+</html>

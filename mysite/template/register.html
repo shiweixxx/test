@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <form action="/register/" method="post">
+    {% csrf_token %}
+     sno:<input type="text" name="sno"><br>
+     name:<input type="text" name="name"><br>
+     city:<input type="text" name="city"><br>
+     <input type="submit" value="ok">
+     <input type="reset" value="zhongz">
+   </form>
+</body>
+</html>
